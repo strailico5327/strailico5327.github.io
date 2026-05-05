@@ -2521,6 +2521,7 @@ pre .javascript .function {
   position: absolute;
   right: 0;
   top: 0;
+  pointer-events: none;
 }
 @media screen and (max-width: 767px) {
   .back-to-top-wrapper {
@@ -2533,6 +2534,7 @@ pre .javascript .function {
   }
 }
 .back-to-top-btn {
+  pointer-events: auto;
   width: 60px;
   height: 60px;
   font-family: FontAwesome;
