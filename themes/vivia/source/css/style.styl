@@ -1,0 +1,332 @@
+@import "nib"
+@import "_variables"
+@import "_util/mixin"
+@import "_util/grid"
+@import "_util/color"
+
+global-reset()
+
+a
+  text-decoration: none
+
+@font-face
+  font-family: Roboto
+  font-style: normal
+  font-weight: 400
+  src: url(fonts/Roboto-Regular.ttf) format("truetype")
+
+@font-face
+  font-family: Roboto
+  font-style: normal
+  font-weight: 700
+  src: url(fonts/Roboto-Bold.ttf) format("truetype")
+
+body, #container
+  overflow-x: hidden
+  height: 100%    // make sidebar's sticky work
+
+body
+  font: font-size font-sans
+  -webkit-text-size-adjust: 100%
+  // background: url('../images/tile.png') var(--page-background)
+  background: var(--page-background)
+  background-size: 240px
+  background-blend-mode: overlay    // TODO temporarily
+  transition: background trans-style, color trans-style
+  &:before
+    // TODO rotate the background
+    // content: ''
+    // position: absolute
+    // top: 0
+    // left: 0
+    // z-index: 10
+    // height: 100%
+    // width: 100%
+    // background-color: none
+    // rotate: 30deg
+
+@css {
+  #main-grid {
+    grid-template-columns: min(30%, var(--sidebar-width)) auto;
+    grid-template-rows: auto auto auto;
+  }
+  #main-grid.right-sidebar {
+    grid-template-columns: auto min(30%, var(--sidebar-width));
+  }
+}
+
+#main-grid
+  display: grid
+  max-width: page-width
+  min-height: 100vh
+  grid-template-rows: auto 1fr auto
+  margin: auto
+  position: relative
+  // grid-auto-rows: minmax(0, auto)
+  grid-gap: 16px
+  #nav
+    grid-column-start: 1
+    grid-column-end: 3
+    transition: height trans-style
+  #sidebar-wrapper
+    grid-row: 2
+    grid-column: 1
+  #content-body
+    grid-column: 2
+    grid-row: 2
+    overflow: auto
+  #footer-wrapper
+    grid-row: 3
+    grid-column-start: 1
+    grid-column-end: 3
+  &.right-sidebar
+    #sidebar-wrapper
+      grid-column: 2
+    #content-body
+      grid-column: 1
+  @media mq-mobile
+    grid-template-columns: auto auto
+    #sidebar-wrapper
+      grid-row: 3
+      grid-column-start: 1
+      grid-column-end: 3
+      margin-top: 48px
+    #content-body
+      grid-column-start: 1
+      grid-column-end: 3
+    #footer-wrapper
+      grid-row: 4
+  @media mq-tablet
+    grid-template-columns: auto auto
+    #sidebar-wrapper
+      grid-row: 3
+      grid-column-start: 1
+      grid-column-end: 3
+      margin-top: 48px
+    #content-body
+      grid-column-start: 1
+      grid-column-end: 3
+    #footer-wrapper
+      grid-row: 4
+
+#main
+  position: relative
+
+.clear
+  clear: both
+
+#container
+  position: relative
+
+// shadow
+#nav
+#sidebar-wrapper
+#content-body
+#footer-wrapper
+#back-to-top-btn
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.01))    // Don't apply this to the parents of the back-to-top buttons
+
+.img-dim
+  width: 100%
+  height: 100%
+  background: var(--img-overlay)
+  position: absolute
+  transition: background trans-style
+
+::selection
+  background-color: var(--selection-bg)
+
+@import "_extend"
+@import "_partial/header"
+@import "_partial/article"
+@import "_partial/comment"
+@import "_partial/archive"
+@import "_partial/footer"
+@import "_partial/highlight"
+@import "_partial/back-to-top"
+@import "_partial/main-title"
+@import "_partial/settings"
+
+if sidebar
+  @import "_partial/sidebar"
+
+.video-link
+  position relative
+  color #58a6ff
+
+.video-link .preview
+  display none
+  position absolute
+  top 20px
+  left 0
+  width 220px
+  z-index 999
+
+.video-link:hover .preview
+  display block
+
+.video-link .preview img
+  width 100%
+  border-radius 8px
+  box-shadow 0 8px 20px rgba(0,0,0,0.3)rgba(0,0,0,0.3)
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Regular.woff2")
+  font-weight 400
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2")
+  font-weight 700
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Regular.woff2")
+  font-weight 400
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Medium.woff2")
+  font-weight 500
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Semibold.woff2")
+  font-weight 600
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2")
+  font-weight 700
+  font-style normal
+  font-display swap
+
+@font-face
+  font-family "HarmonyOS Sans"
+  src url("/fonts/harmonyos_sans/HarmonyOS_Sans_Black.woff2")
+  font-weight 900
+  font-style normal
+  font-display swap
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Semibold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url('/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url('/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url('/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url('/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Semibold.woff2') format('woff2');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url('/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Linden Hill';
+  src: url('/fonts/LindenHill/LindenHill-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Linden Hill';
+  src: url('/fonts/LindenHill/LindenHill-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: "HarmonyOS Sans", "HarmonyOS Sans SC", "HarmonyOS Sans TC", sans-serif;
+}
+
+.post-body,
+.article-entry {
+  font-family: 'Linden Hill', serif;
+  font-size: 20px;
+}
+
+/* normal paragraphs */
+.post-body p,
+.article-entry p {
+  text-indent: 2em;
+  margin: 0;
+}
+
+/* first paragraph (no indent) */
+.post-body p:first-of-type,
+.article-entry p:first-of-type {
+  text-indent: 0;
+}
+
+/* manual override: no indent */
+.post-body p.no-indent,
+.article-entry p.no-indent {
+  text-indent: 0;
+}
+
+.video-link {
+  position: relative;
+}
+
+.preview {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 300px;
+}
+
+.video-link:hover .preview {
+  display: block;
+}
+
+.preview video {
+  width: 100%;
+  display: block;
+}
