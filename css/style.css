@@ -739,14 +739,14 @@ navbar,
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #banner {
-    height: 45vh;
-    max-height: none;
+    height: 56.25vw;
+    max-height: 500px;
   }
 }
 @media screen and (max-width: 767px) {
   #banner {
-    height: 35vh;
-    max-height: none;
+    height: 56.25vw;
+    max-height: 500px;
   }
 }
 #banner.hide {
