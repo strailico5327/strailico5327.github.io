@@ -737,18 +737,6 @@ navbar,
 #banner.is_home {
   max-height: 600px;
 }
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  #banner {
-    height: 56.25vw;
-    max-height: 500px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #banner {
-    height: 56.25vw;
-    max-height: 500px;
-  }
-}
 #banner.hide {
   opacity: 0;
 }
