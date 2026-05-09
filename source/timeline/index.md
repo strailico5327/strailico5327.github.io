@@ -66,6 +66,19 @@ CUSTOM FUNCTIONS:
 -->
 
 
+<br><p>Domain purchased; GitHub branches sorted; everything is just on track.</p><div style="display:flex; justify-content:space-evenly;">
+        <img 
+            src="\timeline\img\screenshots\development\blog\cloudflare_domain_screenshot.png" 
+            alt="cloudflare_domain_screenshot" 
+            style="width:49.6%; margin:10px auto;">
+        <img 
+            src="\timeline\img\screenshots\development\blog\github_blog_repo_branches_screenshot.png"
+            alt="github_blog_repo_branches_screenshot" 
+            style="width:49.6%; margin:10px auto;">
+    </div><span style="float: right;">— 10 May 2026</span><br>
+
+---
+
 <div style="display:flex; justify-content:space-evenly;">
     <img 
         src="\timeline\img\screenshots\games\phi_aleph_0_in_ap_screenshot.png" alt="phi_aleph_0_in_ap_screenshot" 
@@ -79,7 +92,7 @@ CUSTOM FUNCTIONS:
         alt="phi_trojan_in_ap_screenshot.png" 
         style="width:33%; margin:10px auto;">
     </div>
-<span style="float: right;">— 9 May 2026</span></p><br>
+<span style="float: right;">— 9 May 2026</span><br>
 
 ---
 
