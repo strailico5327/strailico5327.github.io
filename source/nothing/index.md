@@ -3,6 +3,7 @@ title: "Nothing"
 date: 2026-05-02 01:47:25
 ---
 
+<br>
 {% foi %}What a relief to stay with someone you can get along well.
 {% imgbox0 
     '/nothing/img/at_dominos_ltp.png' 

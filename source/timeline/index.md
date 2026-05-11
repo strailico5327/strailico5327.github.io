@@ -4,47 +4,8 @@ date: 2026-05-02 01:47:25
 indent: false
 ---
 
-<!-- TO INSERT A VIDEO WITH A THUMBNAIL
-
-CUSTOM FUNCTIONS:
-- controls     → show video controls
-- autoplay     → auto play video
-- muted        → required for autoplay on most browsers
-- loop         → replay automatically
-- playsinline  → prevent fullscreen on mobile
-
-<div style="width:80%; margin:10px auto;">
-    <video
-        controls
-        autoplay
-        muted
-        loop
-        playsinline
-        preload="metadata"
-        width="100%"
-        poster="/PAGE_NAME/IMG_NAME">
-            <
-                src="/PAGE_NAME/VIDEO_NAME.SUFFIX"
-                type="video/FORMAT">
-    </video>
-</div>
--->
-
-<!-- MULTIPLE IMG INSERT
-<div style="display:flex; justify-content:space-evenly;"> 
-
-
-    Different *justify-content* values give different automatic spacing:
-
-    Value	        Effect
-    center	        items grouped in centre
-    space-between	pushes items to edges
-    space-around	equal space around items
-    space-evenly	perfectly even spacingINLINE
--->
-
-
-<br>{% foi %}Domain purchased; GitHub branches sorted; everything is just on track.
+<br>
+{% foi %}Domain purchased; GitHub branches sorted; everything is just on track.
 <div style="display:flex; justify-content:space-evenly;">
         {% imgbox0
             '/timeline/img/screenshots/development/blog/cloudflare_domain_screenshot.png'

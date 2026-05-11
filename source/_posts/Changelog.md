@@ -1,7 +1,8 @@
 ---
 title: Changelog
 date: 2026-05-10 20:16:00
-tags:
+categories: Blog Dev
+tags: Changelog
 ---
 
 <br>
