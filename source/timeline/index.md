@@ -4,6 +4,10 @@ date: 2026-05-02 01:47:25
 indent: false
 ---
 
+<br>{% foi %}I've just had an MRI scan this evening and I have to wait until tomorrow afternoon to get the report.<br>{% foi %}{% ljp %}苦しい。{% eljp %}<br>{% date 11 5 26 %}<br>
+
+---
+
 <br>
 {% foi %}Domain purchased; GitHub branches sorted; everything is just on track.
 <div style="display:flex; justify-content:space-evenly;">
@@ -39,7 +43,7 @@ indent: false
 ---
 
 
-<br>{% foi %}A tenth day without my bike. Fairly depressed.<br><span style="float: right;">— 9 May 2026</span><br>
+<br>{% foi %}A tenth day without my bike. Fairly depressed.<br>{% date 9 5 26 %}<br>
 
 ---
 
