@@ -2,6 +2,21 @@
 title: About
 date: 2026-05-06 01:25:40
 ---
+<br>
+{% foi %}An ordinary boy from a coastal county in China, defined by cycling, doujin music, technology, Blender CG, linguistics and music games and the love of his family and companions, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
+<br>
+{% date 7 5 26 %}
+<br>
 
-<p>An ordinary boy from a coastal county in China, defined by cycling, doujin music, technology, Blender CG, linguistics and music games and the love of his family and companions, a Christian. He doubts himself very often since he considered himself to just *likes* those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
-<br><span style="float: right;">— 7 May 2026</span></p><br>
+---
+<b>About <i>Shards:</i></b>
+{% foi %}A novel Victor wrote in high school as his escape for those stressful years, and now he picks it up and wishes to finish it one day.
+<br>
+{% foi %}Well, any error is possible in a draft so just take them easy if you found the text cringeworthy—he may have got a same feeling too, or you'd better not to read it before it is finished.
+<br>
+<br>
+CONTENTS:
+<br>
+{% post_link 'Prol-Into-the-Eternity' 'Prol. Into the Eternity (Draft)' %}
+<br>
+{% date 7 5 26 %}

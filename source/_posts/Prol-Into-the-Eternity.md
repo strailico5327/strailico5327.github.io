@@ -2,6 +2,7 @@
 title: Prol. Into the Eternity (Draft)
 date: 2026-05-02 23:46:05
 categories: Fiction
+indent: true
 tags: 
     - Novel
     - Shards
@@ -10,12 +11,11 @@ tags:
 
 ---
 
-**THIS IS A *DRAFT*, READ *SHARDS* PAGE BEFORE YOU READ IT.**
+**THIS IS A *DRAFT*, READ *ABOUT* PAGE BEFORE YOU READ IT.**
 
 ---
 
-<p class="no-indent">
-Bloody dark.
+{% noi %}Bloody dark.
 
 I was lying on my stomach, yet I was possessed by a splitting headache, feeling like somewhere inside my skull was throbbing painfully.
 

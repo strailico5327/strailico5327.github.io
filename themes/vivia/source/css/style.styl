@@ -291,22 +291,31 @@ body {
   font-size: 20px;
 }
 
-/* normal paragraphs */
+/* remove default paragraph margin globally */
+
 .post-body p,
 .article-entry p {
-  text-indent: 2em;
   margin: 0;
 }
 
-/* first paragraph (no indent) */
-.post-body p:first-of-type,
-.article-entry p:first-of-type {
+/* publication style */
+
+.indent-layout .post-body p,
+.indent-layout .article-entry p {
+  text-indent: 2em;
+}
+
+/* first paragraph no indent */
+
+.indent-layout .post-body p:first-of-type,
+.indent-layout .article-entry p:first-of-type {
   text-indent: 0;
 }
 
-/* manual override: no indent */
-.post-body p.no-indent,
-.article-entry p.no-indent {
+/* manual override */
+
+.indent-layout .post-body p.no-indent,
+.indent-layout .article-entry p.no-indent {
   text-indent: 0;
 }
 

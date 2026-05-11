@@ -1,6 +1,7 @@
 ---
 title: Recollection of Pebble (Draft)
 date: 2026-05-02 14:21:02
+indent: true
 lang: en
 categories: Tech
 tags: 
@@ -15,7 +16,7 @@ tags:
 
 ---
 
-<p class="no-indent">Yeah, <a href='https://x.com/pebble'>Pebble</a> is so memorable to me that it deserves an individual page to record its stories along with me.
+{% noi %}Yeah, <a href='https://x.com/pebble'>Pebble</a> is so memorable to me that it deserves an individual page to record its stories along with me.
 
 It all started with <a href="https://www.bilibili.com/video/BV17s411c7cg" class="video-link">that video<span class="preview"><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=30630027&bvid=BV17s411c7cg&cid=53460188&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></span></a>, which was short, but still made Pebble less obscure. Pebble attracted me in every aspect: its smooth animations, its button-based interaction design, its e-paper screen which never turned off; but those were not enough though. As a student of junior high school, a boy rarely got his phone due to the restriction from his mother, I was thirsty for something to entertain my boring school life. From that video I knew that Pebble was able to install apps. You know, do not try to trifle humans’ eager for games. Anything that can be programmed can be turned into a gaming device, whether it is a CASIO calculator or a Mi Band, and Pebble is also included obviously. 
 

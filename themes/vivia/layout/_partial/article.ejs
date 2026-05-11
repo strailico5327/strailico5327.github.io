@@ -1,7 +1,7 @@
 <% let cover = post.photos && post.photos.length %>
 <% let description = post.description && post.description.length %>
 
-<article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+<article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %> <%= (!index && post.indent) ? 'indent-layout' : '' %>">
   <% if (is_post() || theme.home.style == 'detail') { %>
     <%- partial('post/gallery', {post: post}) %>
   <% } %> 
