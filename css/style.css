@@ -3127,8 +3127,17 @@ input[type="range"] {
   font-weight: 400;
   font-style: italic;
 }
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url("/fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
 body {
   font-family: "HarmonyOS Sans", "HarmonyOS Sans SC", "HarmonyOS Sans TC", sans-serif;
+}
+:lang(ja) {
+  font-family: 'Noto Serif JP', serif;
 }
 .post-body,
 .article-entry {
