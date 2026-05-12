@@ -3012,7 +3012,7 @@ input[type="range"] {
 .video-link .preview {
   display: none;
   position: absolute;
-  top: 20px;
+  top: 40px;
   left: 0;
   width: 220px;
   z-index: 999;
@@ -3025,20 +3025,6 @@ input[type="range"] {
   border-radius: 8px;
   -webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.3) rgba(0,0,0,0.3);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3) rgba(0,0,0,0.3);
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Regular.woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: "HarmonyOS Sans";
@@ -3065,13 +3051,6 @@ input[type="range"] {
   font-family: "HarmonyOS Sans";
   src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2");
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Black.woff2");
-  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -3170,13 +3149,14 @@ body {
 .preview {
   display: none;
   position: absolute;
-  top: 100%;
+  top: 120%;
   left: 0;
   width: 300px;
 }
 .video-link:hover .preview {
   display: block;
 }
+.preview img,
 .preview video {
   width: 100%;
   display: block;
