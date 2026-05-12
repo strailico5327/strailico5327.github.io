@@ -22,16 +22,16 @@ photos:
 <br>
 <b>Contents:</b>
 <br>
-{% post_link 'Prol-Into-the-Eternity' 'Prol. Into the Eternity (Draft)' %}
+{% post_link 'Prol-Into-the-Eternity' '- Prol. Into the Eternity' %}
 <br>
 {% date 7 5 26 %}
 <br>
 
 ---
 <br>
-{% mnt Changelog %}
+<a href="/changelog/">Changelog</a>
 <br>
-{% foi %}Add thumbnails to images to improve the loading speed.
+{% foi %} - Add thumbnails to images to improve the loading speed. 
 <br>
 {% date 10 5 26 %}
 <br>
