@@ -1,8 +1,7 @@
 # Header
 menu:                      # Links in the navigation bar
   Home: /
-  Nothing: /nothing/
-  Timeline: /timeline/
+  Timeline: /something/
   Archives: /archives/
   About: /about/
   

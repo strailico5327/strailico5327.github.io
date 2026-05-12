@@ -1,7 +1,8 @@
 ---
-title: "Timeline"
+title: Something
 date: 2026-05-02 01:47:25
 indent: false
+link: /nothing/
 ---
 
 <br>{% foi %}I've just had an MRI scan this evening and I have to wait until tomorrow afternoon to get the report.<br>{% foi %}{% ljp %}苦しい。{% eljp %}<br>{% date 11 5 26 %}<br>
@@ -12,11 +13,11 @@ indent: false
 {% foi %}Domain purchased; GitHub branches sorted; everything is just on track.
 <div style="display:flex; justify-content:space-evenly;">
         {% imgbox0
-            '/timeline/img/screenshots/development/blog/cloudflare_domain_screenshot.png'
+            '/something/img/screenshots/development/blog/cloudflare_domain_screenshot.png'
             '49.95%'
             'blogdev'
         %}{% imgbox0
-            '/timeline/img/screenshots/development/blog/github_blog_repo_branches_screenshot.png'
+            '/something/img/screenshots/development/blog/github_blog_repo_branches_screenshot.png'
             '49.95%'
             'blogdev'
         %}</div>{%date 10 5 26%}<br>
@@ -26,15 +27,15 @@ indent: false
 <br>{% foi %}Before a mathematics examination—
 <div style="display:flex; justify-content:space-evenly;">
     {% imgbox0
-        '/timeline/img/screenshots/games/phi_aleph_0_in_ap_screenshot.png'
+        '/something/img/screenshots/games/phi_aleph_0_in_ap_screenshot.png'
         '33.3%'
         'rhythm_games'
     %}{% imgbox0
-        '/timeline/img/screenshots/games/phi_stasis_in_ap_screenshot.png'
+        '/something/img/screenshots/games/phi_stasis_in_ap_screenshot.png'
         '33.3%'
         'rhythm_games'
     %}{% imgbox0
-        '/timeline/img/screenshots/games/phi_trojan_in_ap_screenshot.png'
+        '/something/img/screenshots/games/phi_trojan_in_ap_screenshot.png'
         '33.3%'
         'rhythm_games'
     %}
@@ -62,7 +63,7 @@ indent: false
 
 <br>{% foi %}<a href="https://www.bilibili.com/video/BV1guRiBsEnC">AP is a love letter to a marvellous chart.</a>
     {% imgbox0 
-        '/timeline/img/captured/phira_sanctuary_ap_captured.PNG'
+        '/something/img/captured/phira_sanctuary_ap_captured.PNG'
         '75%'
         'rhythm_games' 
     %}{% date 5 5 26 %}<br>
@@ -76,7 +77,7 @@ indent: false
 <br>{% foi %}It’s been a while since the last time I played the track Infinity Heaven. I suddenly feel like to cry when hearing its melody today, for no reason. Maybe I finally begin to understand the emotion behind it or I just get its magic too late.
 {% foi %}The minijacks in this chart are so horrible. 
 {% imgbox0 
-    '/timeline/img/screenshots/games/arc_infinity_heaven_byd_ex+_screenshot.png'
+    '/something/img/screenshots/games/arc_infinity_heaven_byd_ex+_screenshot.png'
     '75%'
     'rhythm_games'
 %}{% date 6 4 26 %}

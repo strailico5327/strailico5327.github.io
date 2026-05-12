@@ -1,6 +1,7 @@
 ---
 title: "Nothing"
 date: 2026-05-02 01:47:25
+link: /something/
 photos:
     - at_dominos_ltp_thumb.webp
 ---
