@@ -6,7 +6,7 @@ photos:
 ---
 
 <br>
-{% foi %}An ordinary boy from a coastal county in China, defined by cycling, doujin music, technology, Blender CG, linguistics and music games and the love of his family and companions, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
+{% foi %}An ordinary boy from a coastal county in China, defined by cycling, doujin music, technology, Blender CG, linguistics and music games, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
 <br>
 {% date 7 5 26 %}
 <br>
