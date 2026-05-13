@@ -196,6 +196,105 @@ body:after {
 body:after {
   clear: both;
 }
+@font-face {
+  font-family: "HarmonyOS Sans";
+  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Regular.woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS Sans";
+  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Medium.woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS Sans";
+  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Semibold.woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HarmonyOS Sans";
+  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans SC';
+  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Regular.woff2") format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Medium.woff2") format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Semibold.woff2") format('woff2');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'HarmonyOS Sans TC';
+  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Bold.woff2") format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Linden Hill';
+  src: url("/fonts/LindenHill/LindenHill-Regular.ttf") format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Linden Hill';
+  src: url("/fonts/LindenHill/LindenHill-Italic.ttf") format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url("/fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Noto Serif TC';
+  src: url("/fonts/noto_serif_tc/NotoSerifTC-VariableFont_wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noto Serif SC";
+  src: url("/fonts/noto_serif_sc/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 html,
 body,
 div,
@@ -290,25 +389,13 @@ a img {
 a {
   text-decoration: none;
 }
-@font-face {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  src: url("fonts/Roboto-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  src: url("fonts/Roboto-Bold.ttf") format("truetype");
-}
 body,
 #container {
   overflow-x: hidden;
   height: 100%;
 }
 body {
-  font: 16px "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 16px "HarmonyOS Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-text-size-adjust: 100%;
   background: var(--page-background);
   background-size: 240px;
@@ -1399,7 +1486,7 @@ a.article-title:active {
 .article-entry footer {
   font-size: 16px;
   margin: 1.6em 0;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: "HarmonyOS Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-align: right;
 }
 .article-entry footer cite:before {
@@ -2435,7 +2522,7 @@ a.article-title:active {
 .article-entry .gist .gist-file .gist-meta {
   color: #999;
   background: var(--dark-L20);
-  font: 0.85em "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font: 0.85em "HarmonyOS Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 8px;
@@ -3025,105 +3112,6 @@ input[type="range"] {
   border-radius: 8px;
   -webkit-box-shadow: 0 8px 20px rgba(0,0,0,0.3) rgba(0,0,0,0.3);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3) rgba(0,0,0,0.3);
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Regular.woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Medium.woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Semibold.woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "HarmonyOS Sans";
-  src: url("/fonts/harmonyos_sans/HarmonyOS_Sans_Bold.woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans SC';
-  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Regular.ttf");
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans SC';
-  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Medium.ttf");
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans SC';
-  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Semibold.ttf");
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans SC';
-  src: url("/fonts/harmonyos_sans_sc/HarmonyOS_SansSC_Bold.ttf");
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans TC';
-  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Regular.woff2") format('woff2');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans TC';
-  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Medium.woff2") format('woff2');
-  font-weight: 500;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans TC';
-  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Semibold.woff2") format('woff2');
-  font-weight: 600;
-}
-@font-face {
-  font-family: 'HarmonyOS Sans TC';
-  src: url("/fonts/harmonyos_sans_tc/HarmonyOS_SansTC_Bold.woff2") format('woff2');
-  font-weight: 700;
-}
-@font-face {
-  font-family: 'Linden Hill';
-  src: url("/fonts/LindenHill/LindenHill-Regular.ttf") format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Linden Hill';
-  src: url("/fonts/LindenHill/LindenHill-Italic.ttf") format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'Noto Serif JP';
-  src: url("/fonts/noto_serif_jp/NotoSerifJP-VariableFont_wght.ttf") format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Noto Serif TC';
-  src: url("/fonts/noto_serif_tc/NotoSerifTC-VariableFont_wght.ttf") format('truetype');
-  font-weight: 100 900;
-  font-style: normal;
-}
-@font-face {
-  font-family: "Noto Serif SC";
-  src: url("/fonts/noto_serif_sc/NotoSerifSC-VariableFont_wght.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
 }
 body {
   font-family: "HarmonyOS Sans", "HarmonyOS Sans SC", "HarmonyOS Sans TC", sans-serif;
