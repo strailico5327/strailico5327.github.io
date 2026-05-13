@@ -1,8 +1,16 @@
 ---
 title: Something
-date: 2026-05-02 01:47:25
+date: 2026-05-14 00:50:00
 indent: false
 link: /nothing/
+---
+
+<br>{% foi %}Busy with medical examinations and pre-operative preparations these days.<br>{% date 13 5 26 %}<br>
+
+---
+
+<br>{% foi %}Posterior Cruciate Ligament Rupture.<br>{% date 12 5 26 %}<br>
+
 ---
 
 <br>{% foi %}I've just had an MRI scan this evening and I have to wait until tomorrow afternoon to get the report.<br>{% foi %}{% ljp %}苦しい。{% eljp %}<br>{% date 11 5 26 %}<br>
