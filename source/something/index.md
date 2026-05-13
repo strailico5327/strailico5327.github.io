@@ -29,15 +29,15 @@ link: /nothing/
     {% imgbox0
         '/something/img/screenshots/games/phi_aleph_0_in_ap_screenshot.png'
         '33.3%'
-        'rhythm_games'
+        '9 5 26'
     %}{% imgbox0
         '/something/img/screenshots/games/phi_stasis_in_ap_screenshot.png'
         '33.3%'
-        'rhythm_games'
+        '9 5 26'
     %}{% imgbox0
         '/something/img/screenshots/games/phi_trojan_in_ap_screenshot.png'
         '33.3%'
-        'rhythm_games'
+        '9 5 26'
     %}
 </div>{% date 9 5 26 %}<br>
 
@@ -65,7 +65,7 @@ link: /nothing/
     {% imgbox0 
         '/something/img/captured/phira_sanctuary_ap_captured.PNG'
         '75%'
-        'rhythm_games' 
+        '5 5 26' 
     %}{% date 5 5 26 %}<br>
 
 ---
@@ -79,5 +79,5 @@ link: /nothing/
 {% imgbox0 
     '/something/img/screenshots/games/arc_infinity_heaven_byd_ex+_screenshot.png'
     '75%'
-    'rhythm_games'
+    '6 4 26'
 %}{% date 6 4 26 %}

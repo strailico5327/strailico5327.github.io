@@ -28,10 +28,18 @@ photos:
 <br>
 
 ---
+
 <br>
-<a href="/changelog/">Changelog</a>
-<br>
-{% foi %} - Add thumbnails to images to improve the loading speed. 
-<br>
-{% date 10 5 26 %}
-<br>
+<div class="mini-title"><a href="/changelog/">Changelog</a></div>
+{% foi %} - perf: further optimise images for a better performance<br>
+{% foi %} - style: adjust preview image location and add global SC/TC font support<br>
+{% foi %} - refactor: refactor font register<br>
+{% foi %} - feat: add cover support for pages<br>
+{% date 13 5 26 %}<br>
+{% foi %} - docs: add changlog page<br>
+{% foi %} - fix: fix word counter<br>
+{% foi %} - style: merge Nothing and Timeline into Timeline.<br>
+{% date 12 5 26 %}<br>
+{% foi %} - feat: add banner/preview image support for each post.<br>
+{% foi %} - style: add JP font support<br>
+{% date 11 5 26 %}<br>

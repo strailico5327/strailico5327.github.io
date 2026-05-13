@@ -19,13 +19,13 @@
             </div>
 
             <div class="wordcount need-separator meta-info">
-              <%- wordcount(post.content) %> <%- __('words') %> <%- __('words') %>
+              <%- wordcount(post.content) %> <%- __('words') %>
             </div>
           </div>
         <% } else { %>
           <div class='meta-info-bar'>
             <span><%- partial('post/date', {post: post, class_name: 'meta-info', date_format: null}) %></span>
-            <span class="need-separator"><%- wordcount(post.content) %> <%- __('words') %> <%- __('words') %></span>
+            <span class="need-separator"><%- wordcount(post.content) %> <%- __('words') %></span>
           </div>
         <% } %>
 
