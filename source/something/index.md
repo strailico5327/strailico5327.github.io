@@ -15,11 +15,11 @@ link: /nothing/
         {% imgbox0
             '/something/img/screenshots/development/blog/cloudflare_domain_screenshot.png'
             '49.95%'
-            'blogdev'
+            '10-5-26'
         %}{% imgbox0
             '/something/img/screenshots/development/blog/github_blog_repo_branches_screenshot.png'
             '49.95%'
-            'blogdev'
+            '10-5-26'
         %}</div>{%date 10 5 26%}<br>
 
 ---
