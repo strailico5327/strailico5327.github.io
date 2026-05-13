@@ -1,9 +1,18 @@
 <% if (post.photos && post.photos.length){ %>
+<%
+  const isPage = post.layout === 'page';
+  const pageBase = post.path.replace(/index\.html$/, '').replace(/\/$/, '');
+%>
 <div class="article-gallery">
   <div class="article-gallery-photos">
     <% post.photos.forEach(function(photo, i){ %>
+      <%
+        const photoUrl = isPage
+          ? pageBase + '/img/cover/' + photo
+          : post.path + '/' + photo;
+      %>
       <a class="article-gallery-img" rel="gallery_<%= post._id %>">
-        <img src="<%- url_for(post.path + '/' + photo) %>" itemprop="image">
+        <img src="<%- url_for(photoUrl) %>" itemprop="image">
       </a>
     <% }) %>
   </div>

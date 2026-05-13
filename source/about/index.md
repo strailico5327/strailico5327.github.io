@@ -2,13 +2,13 @@
 title: About
 date: 2026-05-06 01:25:40
 photos: 
-    - banner_cycling_dusk_thumb.webp
+    - cover_cycling_dusk_thumb.webp
 ---
 
 <br>
-{% foi %}An ordinary boy from a coastal county in China, defined by cycling, doujin music, technology, Blender CG, linguistics and music games, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
+{% foi %}An ordinary boy from a coastal county in China, loving cycling, doujin music, technology, Blender CG, linguistics and music games, a Christian. He doubts himself very often since he considered himself to just <i>likes</i> those hobbies despite his belief that his love for his hobbies should not be determined by his level of mastery.
 <br>
-{% date 7 5 26 %}
+{% date 13 5 26 %}
 <br>
 
 ---

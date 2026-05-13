@@ -4,6 +4,7 @@ date: 2026-05-02 14:21:02
 indent: true
 lang: en
 categories: Tech
+photos: htx_pebble_cover_thumb.webp
 tags: 
     - Pebble
     - Smartwatch
