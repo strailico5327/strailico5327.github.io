@@ -2,20 +2,6 @@
 title: "Nothing"
 date: 2026-05-02 01:47:25
 link: /something/
-photos:
-    - at_dominos_ltp_thumb.webp
----
-
-<br>
-{% foi %}What a relief to stay with someone you can get along well.
-{% imgbox0 
-    '/nothing/img/at_dominos_ltp.png' 
-    '75%' 
-    'nothing' 
-%}
-{% date 8 5 26%}
-<br>
-
 ---
 
 <br>

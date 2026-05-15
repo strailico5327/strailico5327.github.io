@@ -3,9 +3,36 @@ title: Something
 date: 2026-05-14 00:50:00
 indent: false
 link: /nothing/
+photos: 
+    - cover_cycling_Min.S.Pt._thumb.webp
 ---
 
-<br>{% foi %}Busy with medical examinations and pre-operative preparations these days.<br>{% date 13 5 26 %}<br>
+<br>{% foi %}I finally cried so many days after that accident.
+{% foi %}<b>FAREWELL.</b>
+{% imgbox0 
+    '/nothing/img/captured/bike_sayonara.jpg' 
+    '75%' 
+    '150526' 
+%}
+{% date 15 5 26 %}
+<br>
+
+---
+
+<br>{% foi %}I've decline the sugery: I want to give give myself a chance.
+{% date 15 5 26 %}
+<br>
+
+---
+
+<br>{% foi %}原来等待，真的可以成为遗憾。
+{% imgbox0 '/something/img/screenshots/chat_history/chat_history_after_the_accident.jpg' '50%' '150526' %}
+{% date 15 5 26 %}
+<br>
+
+---
+
+<br>{% foi %}Busy running around hospitals these days.<br>{% date 13 5 26 %}<br>
 
 ---
 
@@ -37,15 +64,15 @@ link: /nothing/
     {% imgbox0
         '/something/img/screenshots/games/phi_aleph_0_in_ap_screenshot.png'
         '33.3%'
-        '9 5 26'
+        '090526'
     %}{% imgbox0
         '/something/img/screenshots/games/phi_stasis_in_ap_screenshot.png'
         '33.3%'
-        '9 5 26'
+        '090526'
     %}{% imgbox0
         '/something/img/screenshots/games/phi_trojan_in_ap_screenshot.png'
         '33.3%'
-        '9 5 26'
+        '090526'
     %}
 </div>{% date 9 5 26 %}<br>
 
@@ -56,11 +83,23 @@ link: /nothing/
 
 ---
 
+<br>
+{% foi %}What a relief to stay with someone you can get along well.
+{% imgbox0 
+    '/something/img/captured/at_dominos_ltp.png' 
+    '75%' 
+    '080526' 
+%}
+{% date 8 5 26%}
+<br>
+
+---
+
 <br>{% foi %}I go to the hospital with the company of my friend, but the queue of MRI is long and I have to wait until next Monday.<br>{% date 8 5 26 %}<br>
 
 ---
 
-<br>{% foi %}My knees get even worse after I go to the university.<br>{% date 7 5 26 %}<br>
+<br>{% foi %}My left knee get even worse after I go to the university.<br>{% date 7 5 26 %}<br>
 
 ---
 
@@ -70,11 +109,11 @@ link: /nothing/
 ---
 
 <br>{% foi %}<a href="https://www.bilibili.com/video/BV1guRiBsEnC">AP is a love letter to a marvellous chart.</a>
-    {% imgbox0 
-        '/something/img/captured/phira_sanctuary_ap_captured.PNG'
-        '75%'
-        '5 5 26' 
-    %}{% date 5 5 26 %}<br>
+{% imgbox0 
+    '/something/img/captured/phira_sanctuary_ap_captured.PNG'
+    '75%'
+    '050526' 
+%}{% date 5 5 26 %}<br>
 
 ---
 
@@ -87,5 +126,5 @@ link: /nothing/
 {% imgbox0 
     '/something/img/screenshots/games/arc_infinity_heaven_byd_ex+_screenshot.png'
     '75%'
-    '6 4 26'
+    '060426'
 %}{% date 6 4 26 %}
